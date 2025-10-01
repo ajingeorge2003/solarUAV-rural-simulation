@@ -1,0 +1,16 @@
+Parameter,Value,Notes
+Panel Area (A_panel),0.8 m²,Baseline panel size for small UAV
+Panel Efficiency (η_pv),20%,Monocrystalline silicon panels
+MPPT Efficiency (η_mppt),95%,Maximum Power Point Tracking efficiency
+Battery Charging Efficiency (η_ch),95%,Li-ion battery charging losses
+Battery Discharging Efficiency (η_dis),95%,Li-ion battery discharging losses
+System Derating Factor (derate),85%,Environmental and system losses
+Total Efficiency (η_total),15.3%,Combined solar-to-battery efficiency
+Battery Nominal Capacity,226 Wh,Typical small UAV battery capacity
+Panel Mass per Area,1.2 kg/m²,Including panel and frame weight
+Mount Mass,0.1 kg,Panel mounting hardware
+Mass Penalty Factor (c_m),15 W/kg,Additional power for mass penalty
+Cruise Power (typical),120 W,Efficient cruise flight power
+Hover Power (typical),220 W,High-power hover/surveillance
+SoC Operating Range,20-100%,Battery protection limits
+Control Strategy,Hybrid Solar-Battery,Solar priority with battery assist

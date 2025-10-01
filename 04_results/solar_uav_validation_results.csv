@@ -1,0 +1,6 @@
+test_name,description,expected_result,actual_result,test_passed,test_value
+Units Sanity,Solar harvest within expected range (100-2000 Wh),PASS,PASS,True,616
+Scaling Sanity,Linear scaling relationship verified,PASS,PASS,True,Linear
+SoC Behavior,Battery properly depletes during energy deficit,PASS,PASS,True,Decreasing
+Mass Penalty,Mass penalty increases with panel area,PASS,PASS,True,Increasing
+Controller Safety,Controller prevents negative SoC,PASS,PASS,True,≥0%

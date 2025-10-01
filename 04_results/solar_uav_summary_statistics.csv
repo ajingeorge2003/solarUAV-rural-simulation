@@ -1,0 +1,11 @@
+metric,value,units
+Palakkad GHI (kWh/m²/day),5.0,kWh/m²/day
+Jaisalmer GHI (kWh/m²/day),5.39,kWh/m²/day
+Palakkad Solar Harvest (Wh/day),615.5999999999999,Wh/day
+Jaisalmer Solar Harvest (Wh/day),663.6168,Wh/day
+Palakkad Flight Hours (120W),5.129999999999999,hours
+Jaisalmer Flight Hours (120W),5.53014,hours
+Mass Penalty (Wh/day),26.4,Wh/day
+Required Area 24h (m²),3.742690058479532,m²
+Efficiency Total (%),17.099999999999998,%
+Derate Factor,0.9,dimensionless
